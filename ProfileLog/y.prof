@@ -1,0 +1,552 @@
+   Ordered by: standard name
+
+Function                                                                                                         called...
+                                                                                                                     ncalls  tottime  cumtime
+<string>:1(<module>)                                                                                             ->       3    0.000    0.000  lib\pyprofiling\profiler_wrapper.py:81(Switch)
+                                                                                                                          3    0.000    0.000  lib\pyprofiling\profiler_wrapper.py:87(Singleton)
+                                                                                                                          8    0.000    0.000  script\logic\game_wnd\wnd_game_main_mgr.py:124(ShowMinimap)
+engine\dt_fx\fx_mgr.py:131(update_all_fx)                                                                        ->    2290    0.000    0.000  {method 'keys' of 'dict' objects}
+engine\game.py:132(_default_on_key_msg)                                                                          ->      22    0.001    0.003  script\logic\common_pkg\keys_mapping_mgr.py:13(OnKeyPressed)
+engine\game.py:176(set_mouse_pos)                                                                                ->
+engine\game.py:370(GetIsEnablePostProcess)                                                                       ->
+engine\logoutput.py:5(write)                                                                                     ->      25    0.001    0.001  {C_debug.message}
+                                                                                                                         25    0.000    0.000  {method 'splitlines' of 'str' objects}
+engine\opensteer.py:2664(setForward)                                                                             ->    1994    0.008    0.008  {_opensteer._TrivialVehicleLS_setForward}
+engine\opensteer.py:2671(setPosition)                                                                            ->    3983    0.016    0.016  {_opensteer._TrivialVehicleLS_setPosition}
+engine\opensteer.py:284(<lambda>)                                                                                ->    1994    0.002    0.007  engine\opensteer.py:51(_swig_setattr)
+engine\opensteer.py:286(<lambda>)                                                                                ->    1994    0.006    0.007  engine\opensteer.py:55(_swig_getattr)
+engine\opensteer.py:298(__init__)                                                                                ->    1994    0.002    0.009  engine\opensteer.py:284(<lambda>)
+                                                                                                                       1994    0.003    0.010  engine\opensteer.py:286(<lambda>)
+                                                                                                                       1994    0.004    0.004  {_opensteer.new_Vec3}
+engine\opensteer.py:37(_swig_setattr_nondynamic)                                                                 ->
+engine\opensteer.py:412(<lambda>)                                                                                ->
+engine\opensteer.py:51(_swig_setattr)                                                                            ->    1994    0.005    0.005  engine\opensteer.py:37(_swig_setattr_nondynamic)
+engine\opensteer.py:55(_swig_getattr)                                                                            ->    1994    0.000    0.000  {method 'get' of 'dict' objects}
+lib\encodings\utf_8.py:16(decode)                                                                                ->      25    0.000    0.000  {_codecs.utf_8_decode}
+lib\logging\__init__.py:1156(debug)                                                                              ->    4580    0.006    0.012  lib\logging\__init__.py:1370(isEnabledFor)
+lib\logging\__init__.py:1356(getEffectiveLevel)                                                                  ->
+lib\logging\__init__.py:1370(isEnabledFor)                                                                       ->    4580    0.006    0.006  lib\logging\__init__.py:1356(getEffectiveLevel)
+lib\pyprofiling\profiler_wrapper.py:41(Stop)                                                                     ->       6    0.000    0.000  script\init.py:57(write)
+                                                                                                                          3    0.000    0.000  {method 'disable' of '_lsprof.Profiler' objects}
+lib\pyprofiling\profiler_wrapper.py:81(Switch)                                                                   ->       3    0.000    0.000  lib\pyprofiling\profiler_wrapper.py:41(Stop)
+lib\pyprofiling\profiler_wrapper.py:87(Singleton)                                                                ->
+script\gac_gas\gas_aoi\aoi_scene.py:101(GetAoiObjByGlobalID)                                                     ->      10    0.000    0.000  {method 'get' of 'dict' objects}
+script\gac_gas\gas_aoi\aoi_scene.py:30(AddObj)                                                                   ->     270    0.000    0.000  {math.floor}
+script\gac_gas\gas_aoi\aoi_scene.py:61(UpdateObj)                                                                ->     135    0.000    0.000  script\gac_gas\gas_aoi\aoi_scene.py:30(AddObj)
+                                                                                                                       7966    0.003    0.003  {math.floor}
+script\gac_gas\gas_aoi\aoi_scene.py:78(_OnAoiUpdate)                                                             ->     150    0.000    0.000  {math.fabs}
+                                                                                                                        715    0.000    0.000  {method 'iteritems' of 'dict' objects}
+script\gac_gas\gas_aoi\gas_aoi_mgr.py:35(UpdateObjInScene)                                                       ->    3983    0.009    0.012  script\gac_gas\gas_aoi\aoi_scene.py:61(UpdateObj)
+                                                                                                                       3983    0.001    0.001  {method 'get' of 'dict' objects}
+script\gac_gas\gas_aoi\gas_aoi_mgr.py:48(GetAoiObjByGlobalID)                                                    ->      10    0.000    0.000  script\gac_gas\gas_aoi\aoi_scene.py:101(GetAoiObjByGlobalID)
+                                                                                                                         10    0.000    0.000  {method 'get' of 'dict' objects}
+script\gac_gas\gas_char_mgr\class_fight_server_obj.py:56(SetObjDir)                                              ->
+script\gac_gas\gas_char_mgr\class_fight_server_obj.py:68(SetLocalPosition)                                       ->    3983    0.010    0.022  script\gac_gas\gas_aoi\gas_aoi_mgr.py:35(UpdateObjInScene)
+script\gac_gas\gas_char_mgr\gas_char_mgr.py:32(GetObjByGlobalID)                                                 ->    4860    0.001    0.001  {method 'get' of 'dict' objects}
+script\gac_gas\rpc\gac2gas.py:32(SyncClientLocalPosition2Server)                                                 ->    3983    0.009    0.025  script\logic\common_pkg\tick_mgr.py:50(RegisterOnceTick)
+script\gac_gas\rpc\gac2gas.py:33(Cor)                                                                            ->    3983    0.024    0.047  script\gac_gas\gas_char_mgr\class_fight_server_obj.py:68(SetLocalPosition)
+                                                                                                                       3983    0.003    0.004  script\gac_gas\gas_char_mgr\gas_char_mgr.py:32(GetObjByGlobalID)
+script\gac_gas\rpc\gac2gas.py:42(SyncClientDirToServer)                                                          ->     877    0.003    0.007  script\logic\common_pkg\tick_mgr.py:50(RegisterOnceTick)
+script\gac_gas\rpc\gac2gas.py:43(Cor)                                                                            ->     877    0.001    0.001  script\gac_gas\gas_char_mgr\class_fight_server_obj.py:56(SetObjDir)
+                                                                                                                        877    0.001    0.001  script\gac_gas\gas_char_mgr\gas_char_mgr.py:32(GetObjByGlobalID)
+script\gac_gas\skill\class_fight_skill.py:137(GetCostNuQi)                                                       ->
+script\gac_gas\skill\class_fight_skill.py:149(GetSkillCD)                                                        ->
+script\gac_gas\skill\class_fight_skill.py:158(GetCostNengLiang)                                                  ->
+script\gac_gas\skill\class_fight_skill.py:161(GetSkillTypeID)                                                    ->
+script\gac_gas\skill\class_fight_skill_mgr.py:6(GetFightSkillByID)                                               ->
+script\gac_gas\skill\gas_skill_pkg\check_can_do_skill.py:8(CheckCanDoSkill)                                      ->    4212    0.007    0.009  script\gac_gas\skill\gas_skill_pkg\skill_cd.py:21(CanDoSkill)
+                                                                                                                       5616    0.006    0.008  script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:41(GetSkillCostNuQi)
+                                                                                                                      12636    0.009    0.015  script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:57(GetCostNengLiang)
+                                                                                                                       1404    0.002    0.004  script\gac_gas\skill\gas_skill_pkg\skill_nengliang.py:20(RefreshSkillNengLiang)
+                                                                                                                       2808    0.002    0.002  script\gac_gas\skill\gas_skill_pkg\skill_nuqi.py:19(GetSkillNuQi)
+script\gac_gas\skill\gas_skill_pkg\skill_cd.py:21(CanDoSkill)                                                    ->    4212    0.001    0.001  {method 'get' of 'dict' objects}
+                                                                                                                       4212    0.001    0.001  {method 'has_key' of 'dict' objects}
+script\gac_gas\skill\gas_skill_pkg\skill_cd.py:30(GetSkillCDInfo)                                                ->    1404    0.000    0.000  {method 'get' of 'dict' objects}
+                                                                                                                       1404    0.000    0.000  {method 'has_key' of 'dict' objects}
+script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:41(GetSkillCostNuQi)                                             ->    5616    0.001    0.001  script\gac_gas\skill\class_fight_skill.py:137(GetCostNuQi)
+                                                                                                                       5616    0.001    0.001  script\gac_gas\skill\class_fight_skill_mgr.py:6(GetFightSkillByID)
+script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:45(GetSkillCD)                                                   ->    5616    0.002    0.002  script\gac_gas\skill\class_fight_skill.py:149(GetSkillCD)
+                                                                                                                       5616    0.004    0.004  script\gac_gas\skill\class_fight_skill_mgr.py:6(GetFightSkillByID)
+script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:57(GetCostNengLiang)                                             ->   19656    0.004    0.004  script\gac_gas\skill\class_fight_skill.py:158(GetCostNengLiang)
+                                                                                                                      19656    0.004    0.004  script\gac_gas\skill\class_fight_skill_mgr.py:6(GetFightSkillByID)
+script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:61(GetSkillTypeID)                                               ->    2808    0.001    0.001  script\gac_gas\skill\class_fight_skill.py:161(GetSkillTypeID)
+                                                                                                                       2808    0.001    0.001  script\gac_gas\skill\class_fight_skill_mgr.py:6(GetFightSkillByID)
+script\gac_gas\skill\gas_skill_pkg\skill_nengliang.py:20(RefreshSkillNengLiang)                                  ->    2808    0.003    0.004  script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:61(GetSkillTypeID)
+                                                                                                                       5616    0.001    0.001  {method 'get' of 'dict' objects}
+script\gac_gas\skill\gas_skill_pkg\skill_nuqi.py:19(GetSkillNuQi)                                                ->    4212    0.001    0.001  {method 'get' of 'dict' objects}
+script\init.py:176(OnMouseMsg)                                                                                   ->
+script\init.py:184(OnLogicUpdate)                                                                                ->    2290    0.010    1.015  script\logic\common_pkg\state_machine.py:35(OnUpdate)
+                                                                                                                       2290    0.001    0.001  script\logic\game_state\game_state_machine.py:14(GameStateMachine)
+                                                                                                                       2290    0.003    0.003  {time.time}
+script\init.py:57(write)                                                                                         ->      25    0.000    0.001  engine\logoutput.py:5(write)
+                                                                                                                         25    0.000    0.000  {method 'decode' of 'str' objects}
+                                                                                                                         25    0.000    0.000  {method 'encode' of 'unicode' objects}
+script\logic\bullet\bullet_fx_mgr.py:12(_RemoveDieBullets)                                                       ->
+script\logic\bullet\bullet_fx_mgr.py:25(ProcessUpdate)                                                           ->    2290    0.002    0.002  script\logic\bullet\bullet_fx_mgr.py:12(_RemoveDieBullets)
+script\logic\common_pkg\char_mgr.py:366(ProcessUpdate)                                                           ->     108    0.000    0.001  script\logic\game_obj\fight_obj_int.py:110(Update)
+                                                                                                                       2326    0.009    0.276  script\logic\game_obj\game_obj_fight.py:120(Update)
+                                                                                                                       2290    0.001    0.001  {method 'clear' of 'dict' objects}
+                                                                                                                       2434    0.001    0.001  {method 'has_key' of 'dict' objects}
+                                                                                                                       4580    0.003    0.003  {method 'keys' of 'dict' objects}
+script\logic\common_pkg\char_mgr.py:73(GetObjByGlobalID)                                                         ->    2408    0.001    0.001  {method 'has_key' of 'dict' objects}
+script\logic\common_pkg\char_mgr.py:79(GetMainPlayer)                                                            ->
+script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)                                                     ->
+script\logic\common_pkg\dync_barrier.py:22(CheckInDyncBarrier)                                                   ->    3983    0.001    0.001  {len}
+script\logic\common_pkg\keys_mapping_mgr.py:13(OnKeyPressed)                                                     ->       1    0.000    0.000  <string>:1(<module>)
+                                                                                                                         44    0.000    0.001  script\init.py:57(write)
+                                                                                                                         11    0.000    0.000  {method 'format' of 'str' objects}
+                                                                                                                         22    0.000    0.000  {method 'get' of 'dict' objects}
+script\logic\common_pkg\observer.py:118(wrapped)                                                                 ->    2290    0.012    1.031  script\init.py:184(OnLogicUpdate)
+                                                                                                                       2290    0.009    0.051  script\logic\common_pkg\observer.py:63(NotifyObservers)
+script\logic\common_pkg\observer.py:63(NotifyObservers)                                                          ->    2290    0.004    0.006  script\logic\bullet\bullet_fx_mgr.py:25(ProcessUpdate)
+                                                                                                                       2290    0.005    0.031  script\logic\common_pkg\path_finder.py:107(OnLogicUpdate)
+                                                                                                                       4580    0.005    0.005  {isinstance}
+script\logic\common_pkg\path_finder.py:107(OnLogicUpdate)                                                        ->    2290    0.025    0.025  {mapper.Update}
+script\logic\common_pkg\path_finder.py:80(GetHeight)                                                             ->    7966    0.007    0.007  {mapper.GetHeight}
+script\logic\common_pkg\player_ani_move.py:149(OnUpdateAniMove)                                                  ->    2290    0.001    0.001  {method 'items' of 'dict' objects}
+script\logic\common_pkg\state_machine.py:35(OnUpdate)                                                            ->    4580    0.005    0.017  lib\logging\__init__.py:1156(debug)
+                                                                                                                       2290    0.031    0.988  script\logic\game_state\battle_state.py:33(OnUpdate)
+script\logic\common_pkg\tick_mgr.py:10(GetNewTickID)                                                             ->
+script\logic\common_pkg\tick_mgr.py:17(RegisterTick)                                                             ->       6    0.000    0.000  script\logic\common_pkg\tick_mgr.py:10(GetNewTickID)
+                                                                                                                          6    0.000    0.000  {game3d.activate_timer}
+                                                                                                                          6    0.000    0.000  {game3d.register_timer}
+script\logic\common_pkg\tick_mgr.py:21(Cor)                                                                      ->      75    0.003    0.003  script\gac_gas\gas_aoi\aoi_scene.py:78(_OnAoiUpdate)
+                                                                                                                       1219    0.000    0.000  script\logic\game_wnd\main_move_joystick\wnd_move_joystick.py:150(OnCheckMoveDir)
+                                                                                                                       1404    0.054    0.330  script\logic\game_wnd\main_skill_button\wnd_main_skill_button.py:101(OnTickUpdateCD)
+                                                                                                                       1404    0.013    0.034  script\logic\game_wnd\wnd_mainplayer\wnd_mainplayer_headinfo\wnd_mainplayer_headinfo.py:17(OnTickUpdateHeadInf)
+script\logic\common_pkg\tick_mgr.py:30(UnRegisterTick)                                                           ->       6    0.000    0.000  {game3d.unregister_timer}
+                                                                                                                          6    0.000    0.000  {method 'has_key' of 'dict' objects}
+script\logic\common_pkg\tick_mgr.py:50(RegisterOnceTick)                                                         ->    4860    0.002    0.002  script\logic\common_pkg\tick_mgr.py:10(GetNewTickID)
+                                                                                                                       4860    0.019    0.019  {game3d.delay_exec}
+script\logic\common_pkg\tick_mgr.py:54(Cor)                                                                      ->    3983    0.008    0.058  script\gac_gas\rpc\gac2gas.py:33(Cor)
+                                                                                                                        877    0.003    0.005  script\gac_gas\rpc\gac2gas.py:43(Cor)
+script\logic\common_pkg\trigger_event.py:25(OnUpdateTriggerEvent)                                                ->    2290    0.000    0.000  {len}
+script\logic\common_pkg\utils.py:122(ObjectMove)                                                                 ->    4637    0.002    0.002  script\logic\game_obj\fight_obj_mainplayer.py:82(GetCharacterType)
+                                                                                                                       3983    0.001    0.001  script\logic\game_obj\game_obj_base.py:130(GetLocalPosition)
+                                                                                                                       7966    0.003    0.003  {hasattr}
+                                                                                                                        654    0.000    0.000  {method 'iteritems' of 'dict' objects}
+script\logic\common_pkg\utils.py:155(GetTerrainHeight)                                                           ->    7966    0.008    0.014  script\logic\common_pkg\path_finder.py:80(GetHeight)
+script\logic\common_pkg\utils.py:59(GetAttackTarget)                                                             ->      10    0.000    0.000  script\gac_gas\gas_aoi\gas_aoi_mgr.py:48(GetAoiObjByGlobalID)
+                                                                                                                         10    0.000    0.000  script\logic\game_obj\game_obj_base.py:76(GetGlobalID)
+                                                                                                                         10    0.000    0.000  script\logic\game_obj\game_obj_base.py:130(GetLocalPosition)
+script\logic\component\component_base.py:15(GetOwner)                                                            ->
+script\logic\component\component_base.py:24(IsEnable)                                                            ->
+script\logic\component\component_base.py:30(Update)                                                              ->
+script\logic\component\component_do_skill.py:41(GetIsLockMove)                                                   ->
+script\logic\component\component_do_skill.py:44(GetCurSkillID)                                                   ->
+script\logic\component\component_fight_attr.py:147(GetCurHp)                                                     ->
+script\logic\component\component_fight_attr.py:153(GetMaxHp)                                                     ->
+script\logic\component\component_fight_attr.py:156(Update)                                                       ->    2326    0.001    0.001  {time.time}
+script\logic\component\component_fight_attr.py:47(IsInFightState)                                                ->
+script\logic\component\component_fight_attr.py:53(IsForceControlling)                                            ->
+script\logic\component\component_fight_attr.py:96(GetIsDie)                                                      ->
+script\logic\component\component_move_mapper.py:101(GetIsMoving)                                                 ->
+script\logic\component\component_move_mapper.py:104(GetMoveSpeed)                                                ->
+script\logic\component\component_move_mapper.py:113(SetLocalPosition)                                            ->    3983    0.001    0.001  engine\opensteer.py:412(<lambda>)
+                                                                                                                       3983    0.004    0.021  engine\opensteer.py:2671(setPosition)
+script\logic\component\component_move_mapper.py:159(CanMove)                                                     ->    1994    0.000    0.000  script\logic\component\component_base.py:24(IsEnable)
+                                                                                                                       1994    0.001    0.001  script\logic\component\component_do_skill.py:41(GetIsLockMove)
+                                                                                                                       1994    0.001    0.001  script\logic\component\component_fight_attr.py:53(IsForceControlling)
+                                                                                                                       1994    0.001    0.001  script\logic\game_obj\game_obj_fight.py:66(GetDoSkillMgr)
+                                                                                                                       1994    0.001    0.001  script\logic\game_obj\game_obj_fight.py:70(GetFightAttrsMgr)
+script\logic\component\component_move_mapper.py:174(MoveOneStep)                                                 ->    1994    0.017    0.040  engine\opensteer.py:298(__init__)
+                                                                                                                       3988    0.000    0.000  engine\opensteer.py:412(<lambda>)
+                                                                                                                       1994    0.002    0.010  engine\opensteer.py:2664(setForward)
+                                                                                                                       1994    0.006    0.009  script\logic\common_pkg\utils.py:155(GetTerrainHeight)
+                                                                                                                       3988    0.001    0.001  script\logic\component\component_base.py:15(GetOwner)
+                                                                                                                       1994    0.001    0.001  script\logic\component\component_do_skill.py:44(GetCurSkillID)
+                                                                                                                       1994    0.007    0.012  script\logic\component\component_move_mapper.py:159(CanMove)
+                                                                                                                       1994    0.014    0.035  script\logic\component\component_play_ani.py:132(UpdateAnimation)
+                                                                                                                       1994    0.013    0.039  script\logic\game_obj\game_obj_base.py:207(SetDirByVector)
+                                                                                                                       1994    0.001    0.002  script\logic\game_obj\game_obj_fight.py:62(GetPlayAniMgr)
+                                                                                                                       1994    0.001    0.001  script\logic\game_obj\game_obj_fight.py:66(GetDoSkillMgr)
+                                                                                                                       1994    0.007    0.090  script\logic\game_obj\game_obj_fight.py:142(SetLocalPosition)
+                                                                                                                       1994    0.002    0.002  {mapper.GetCurrentPositionInfo}
+                                                                                                                       1994    0.022    0.022  {mapper.MoveOneStep}
+                                                                                                                       1994    0.001    0.001  {math.cos}
+                                                                                                                       1994    0.001    0.001  {math.sin}
+script\logic\component\component_move_mapper.py:264(Update)                                                      ->    2434    0.001    0.001  script\logic\component\component_base.py:24(IsEnable)
+                                                                                                                       2434    0.003    0.180  script\logic\component\component_move_mapper.py:351(_OnMoveUpdate)
+script\logic\component\component_move_mapper.py:284(_OnMoveUpdateMapper)                                         ->    1989    0.009    0.016  script\logic\common_pkg\utils.py:155(GetTerrainHeight)
+                                                                                                                       1989    0.001    0.001  script\logic\component\component_base.py:15(GetOwner)
+                                                                                                                       1989    0.001    0.001  script\logic\component\component_move_mapper.py:101(GetIsMoving)
+                                                                                                                       1989    0.002    0.002  script\logic\game_obj\fight_obj_mainplayer.py:82(GetCharacterType)
+                                                                                                                       1989    0.009    0.133  script\logic\game_obj\game_obj_fight.py:142(SetLocalPosition)
+                                                                                                                       1989    0.007    0.007  {mapper.GetCurrentPositionInfo}
+script\logic\component\component_move_mapper.py:351(_OnMoveUpdate)                                               ->    1989    0.017    0.176  script\logic\component\component_move_mapper.py:284(_OnMoveUpdateMapper)
+script\logic\component\component_move_mapper.py:359(MoveStop)                                                    ->       5    0.000    0.000  script\logic\component\component_base.py:15(GetOwner)
+                                                                                                                        299    0.000    0.000  script\logic\component\component_move_mapper.py:101(GetIsMoving)
+                                                                                                                          5    0.000    0.000  script\logic\component\component_play_ani.py:132(UpdateAnimation)
+                                                                                                                          5    0.000    0.000  script\logic\game_obj\game_obj_fight.py:62(GetPlayAniMgr)
+                                                                                                                          5    0.000    0.000  {mapper.StopMove}
+script\logic\component\component_move_mapper.py:98(GetStandToMoveChangeTime)                                     ->
+script\logic\component\component_play_ani.py:132(UpdateAnimation)                                                ->    2295    0.000    0.000  script\logic\component\component_base.py:15(GetOwner)
+                                                                                                                       2295    0.000    0.000  script\logic\component\component_do_skill.py:44(GetCurSkillID)
+                                                                                                                       2295    0.001    0.001  script\logic\component\component_fight_attr.py:53(IsForceControlling)
+                                                                                                                       2295    0.001    0.001  script\logic\component\component_fight_attr.py:96(GetIsDie)
+                                                                                                                       2295    0.012    0.020  script\logic\component\component_play_ani.py:49(GetNormalAniName)
+                                                                                                                       2307    0.000    0.000  script\logic\game_obj\game_obj_base.py:150(GetModel)
+                                                                                                                       2295    0.001    0.001  script\logic\game_obj\game_obj_fight.py:66(GetDoSkillMgr)
+                                                                                                                       4590    0.002    0.002  script\logic\game_obj\game_obj_fight.py:70(GetFightAttrsMgr)
+                                                                                                                         12    0.000    0.000  {method 'play_animation' of 'world.model' objects}
+script\logic\component\component_play_ani.py:49(GetNormalAniName)                                                ->     306    0.000    0.000  script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)
+                                                                                                                       2295    0.000    0.000  script\logic\component\component_base.py:15(GetOwner)
+                                                                                                                       2295    0.001    0.001  script\logic\component\component_fight_attr.py:47(IsInFightState)
+                                                                                                                       2295    0.001    0.001  script\logic\component\component_move_mapper.py:101(GetIsMoving)
+                                                                                                                       2002    0.001    0.001  script\logic\component\component_move_mapper.py:104(GetMoveSpeed)
+                                                                                                                       2295    0.001    0.001  script\logic\game_obj\fight_obj_mainplayer.py:82(GetCharacterType)
+                                                                                                                        612    0.000    0.000  script\logic\game_obj\game_obj_base.py:76(GetGlobalID)
+                                                                                                                       4297    0.002    0.002  script\logic\game_obj\game_obj_fight.py:58(GetMoveMgr)
+                                                                                                                       2295    0.001    0.001  script\logic\game_obj\game_obj_fight.py:70(GetFightAttrsMgr)
+                                                                                                                        306    0.000    0.000  script\logic\game_obj\game_obj_fight.py:78(IsAIEnable)
+                                                                                                                        306    0.000    0.000  script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:186(GetCurMoveDir)
+script\logic\game_ai\behavior_tree\action\hide.py:14(Update)                                                     ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:91(GetOwner)
+                                                                                                                         10    0.000    0.000  script\logic\game_obj\game_obj_base.py:236(SetVisible)
+script\logic\game_ai\behavior_tree\base_node.py:116(GetParentCompositeNode)                                      ->      20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:8(IsCompositeNode)
+script\logic\game_ai\behavior_tree\base_node.py:13(IsConditionalNode)                                            ->      30    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:96(GetNodeType)
+script\logic\game_ai\behavior_tree\base_node.py:142(OnInitialize)                                                ->      70    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)
+script\logic\game_ai\behavior_tree\base_node.py:146(OnTerminate)                                                 ->      70    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)
+script\logic\game_ai\behavior_tree\base_node.py:154(IsRunning)                                                   ->
+script\logic\game_ai\behavior_tree\base_node.py:162(Tick)                                                        ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\action\hide.py:14(Update)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:142(OnInitialize)
+                                                                                                                         30    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:146(OnTerminate)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\selector.py:12(Update)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\selector.py:15(OnInitialize)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\sequence.py:12(Update)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\sequence.py:15(OnInitialize)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\conditional\can_see.py:19(OnInitialize)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\conditional\can_see.py:26(Update)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\conditional\is_false.py:16(Update)
+script\logic\game_ai\behavior_tree\base_node.py:174(Abort)                                                       ->      40    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:146(OnTerminate)
+                                                                                                                         40    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:154(IsRunning)
+                                                                                                                         40    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:160(Remove)
+script\logic\game_ai\behavior_tree\base_node.py:180(__getattr__)                                                 ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:72(HasTreeAttr)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:81(GetTreeAttr)
+                                                                                                                        110    0.000    0.000  {method 'get' of 'dict' objects}
+script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)                                                 ->     810    0.000    0.000  {method 'get' of 'dict' objects}
+script\logic\game_ai\behavior_tree\base_node.py:8(IsCompositeNode)                                               ->      40    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:96(GetNodeType)
+script\logic\game_ai\behavior_tree\base_node.py:91(GetOwner)                                                     ->      20    0.000    0.000  script\logic\component\component_base.py:15(GetOwner)
+script\logic\game_ai\behavior_tree\base_node.py:96(GetNodeType)                                                  ->
+script\logic\game_ai\behavior_tree\behavior_tree.py:102(_UpdateAbortConditionalNodes)                            ->
+script\logic\game_ai\behavior_tree\behavior_tree.py:128(Update)                                                  ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:85(Init)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:102(_UpdateAbortConditionalNodes)
+                                                                                                                         80    0.000    0.002  script\logic\game_ai\behavior_tree\behavior_tree.py:180(Step)
+                                                                                                                       2326    0.004    0.005  script\logic\game_ai\component_ai.py:22(CanUpdate)
+                                                                                                                         10    0.000    0.000  {method 'append' of 'collections.deque' objects}
+script\logic\game_ai\behavior_tree\behavior_tree.py:142(Start)                                                   ->      60    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)
+                                                                                                                         70    0.000    0.000  {method 'appendleft' of 'collections.deque' objects}
+script\logic\game_ai\behavior_tree\behavior_tree.py:152(Stop)                                                    ->      40    0.000    0.000  script\logic\game_ai\behavior_tree\composite\composite.py:44(Abort)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\selector.py:27(OnChildComplete)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\composite\sequence.py:27(OnChildComplete)
+                                                                                                                         40    0.000    0.000  {hasattr}
+script\logic\game_ai\behavior_tree\behavior_tree.py:160(Remove)                                                  ->      40    0.000    0.000  {method 'remove' of 'collections.deque' objects}
+script\logic\game_ai\behavior_tree\behavior_tree.py:180(Step)                                                    ->      70    0.000    0.001  script\logic\game_ai\behavior_tree\base_node.py:162(Tick)
+                                                                                                                         70    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:90(_PreNodeTick)
+                                                                                                                         30    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:94(_AfterNodeTick)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\composite\selector.py:27(OnChildComplete)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\sequence.py:27(OnChildComplete)
+                                                                                                                         30    0.000    0.000  {hasattr}
+                                                                                                                         40    0.000    0.000  {method 'append' of 'collections.deque' objects}
+                                                                                                                         80    0.000    0.000  {method 'popleft' of 'collections.deque' objects}
+script\logic\game_ai\behavior_tree\behavior_tree.py:72(HasTreeAttr)                                              ->      10    0.000    0.000  {method 'get' of 'dict' objects}
+script\logic\game_ai\behavior_tree\behavior_tree.py:81(GetTreeAttr)                                              ->      10    0.000    0.000  {method 'get' of 'dict' objects}
+script\logic\game_ai\behavior_tree\behavior_tree.py:85(Init)                                                     ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:142(Start)
+script\logic\game_ai\behavior_tree\behavior_tree.py:90(_PreNodeTick)                                             ->
+script\logic\game_ai\behavior_tree\behavior_tree.py:94(_AfterNodeTick)                                           ->      20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:8(IsCompositeNode)
+                                                                                                                         30    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:13(IsConditionalNode)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:116(GetParentCompositeNode)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\composite.py:29(IsAbortNode)
+script\logic\game_ai\behavior_tree\composite\composite.py:29(IsAbortNode)                                        ->      20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:180(__getattr__)
+script\logic\game_ai\behavior_tree\composite\composite.py:41(GetChildrenCount)                                   ->
+script\logic\game_ai\behavior_tree\composite\composite.py:44(Abort)                                              ->      80    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:154(IsRunning)
+                                                                                                                         40    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:174(Abort)
+script\logic\game_ai\behavior_tree\composite\selector.py:12(Update)                                              ->
+script\logic\game_ai\behavior_tree\composite\selector.py:15(OnInitialize)                                        ->      20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:142(OnInitialize)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:142(Start)
+script\logic\game_ai\behavior_tree\composite\selector.py:27(OnChildComplete)                                     ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:142(Start)
+                                                                                                                      20/10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:152(Stop)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\composite\composite.py:41(GetChildrenCount)
+script\logic\game_ai\behavior_tree\composite\sequence.py:12(Update)                                              ->
+script\logic\game_ai\behavior_tree\composite\sequence.py:15(OnInitialize)                                        ->      20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:142(OnInitialize)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:142(Start)
+script\logic\game_ai\behavior_tree\composite\sequence.py:27(OnChildComplete)                                     ->      20    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:200(__setattr__)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:142(Start)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\behavior_tree.py:152(Stop)
+                                                                                                                         20    0.000    0.000  script\logic\game_ai\behavior_tree\composite\composite.py:41(GetChildrenCount)
+script\logic\game_ai\behavior_tree\conditional\can_see.py:19(OnInitialize)                                       ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:142(OnInitialize)
+script\logic\game_ai\behavior_tree\conditional\can_see.py:26(Update)                                             ->      10    0.000    0.000  script\logic\common_pkg\char_mgr.py:73(GetObjByGlobalID)
+                                                                                                                         10    0.000    0.000  script\logic\common_pkg\utils.py:59(GetAttackTarget)
+                                                                                                                         10    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:91(GetOwner)
+                                                                                                                         10    0.000    0.000  script\logic\game_obj\game_obj_fight.py:92(GetTargetGID)
+script\logic\game_ai\behavior_tree\conditional\is_false.py:16(Update)                                            ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:180(__getattr__)
+script\logic\game_ai\component_ai.py:22(CanUpdate)                                                               ->    2326    0.001    0.001  script\logic\component\component_base.py:24(IsEnable)
+                                                                                                                         36    0.000    0.000  script\logic\component\component_fight_attr.py:96(GetIsDie)
+                                                                                                                         36    0.000    0.000  script\logic\game_obj\game_obj_fight.py:70(GetFightAttrsMgr)
+script\logic\game_obj\fight_obj_int.py:110(Update)                                                               ->     108    0.000    0.001  script\logic\game_obj\game_obj_fight.py:120(Update)
+script\logic\game_obj\fight_obj_mainplayer.py:82(GetCharacterType)                                               ->
+script\logic\game_obj\game_obj_base.py:106(SetLocalPosition)                                                     ->    3983    0.007    0.032  script\gac_gas\rpc\gac2gas.py:32(SyncClientLocalPosition2Server)
+                                                                                                                       3983    0.001    0.001  script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)
+                                                                                                                       3983    0.004    0.005  script\logic\common_pkg\dync_barrier.py:22(CheckInDyncBarrier)
+                                                                                                                       3983    0.009    0.013  script\logic\common_pkg\utils.py:155(GetTerrainHeight)
+                                                                                                                       3983    0.001    0.001  script\logic\game_obj\game_obj_base.py:76(GetGlobalID)
+                                                                                                                       3983    0.003    0.004  script\logic\game_obj\game_obj_base.py:136(GetWorldPosition)
+script\logic\game_obj\game_obj_base.py:130(GetLocalPosition)                                                     ->
+script\logic\game_obj\game_obj_base.py:136(GetWorldPosition)                                                     ->    8603    0.002    0.002  script\logic\game_obj\game_obj_base.py:130(GetLocalPosition)
+script\logic\game_obj\game_obj_base.py:150(GetModel)                                                             ->
+script\logic\game_obj\game_obj_base.py:186(UpdateModelDir)                                                       ->     877    0.002    0.009  script\gac_gas\rpc\gac2gas.py:42(SyncClientDirToServer)
+                                                                                                                        877    0.000    0.000  script\logic\game_obj\game_obj_base.py:76(GetGlobalID)
+                                                                                                                        877    0.003    0.003  {built-in method make_rotation_y}
+                                                                                                                        877    0.000    0.000  {math.radians}
+script\logic\game_obj\game_obj_base.py:194(SetDirByValue)                                                        ->    1994    0.016    0.019  script\logic\game_obj\game_obj_base.py:221(GetModelDir)
+script\logic\game_obj\game_obj_base.py:207(SetDirByVector)                                                       ->    1994    0.004    0.023  script\logic\game_obj\game_obj_base.py:194(SetDirByValue)
+                                                                                                                       1994    0.001    0.001  {math.acos}
+                                                                                                                       1994    0.001    0.001  {math.degrees}
+                                                                                                                       1994    0.001    0.001  {method 'dot' of 'math3d.vector' objects}
+                                                                                                                       1994    0.001    0.001  {method 'normalize' of 'math3d.vector' objects}
+script\logic\game_obj\game_obj_base.py:218(GetDir)                                                               ->
+script\logic\game_obj\game_obj_base.py:221(GetModelDir)                                                          ->    1994    0.001    0.001  script\logic\game_obj\game_obj_base.py:150(GetModel)
+                                                                                                                       1994    0.001    0.001  {math.acos}
+                                                                                                                       1994    0.000    0.000  {math.degrees}
+                                                                                                                       1994    0.000    0.000  {method 'dot' of 'math3d.vector' objects}
+                                                                                                                       1994    0.001    0.001  {method 'normalize' of 'math3d.vector' objects}
+script\logic\game_obj\game_obj_base.py:236(SetVisible)                                                           ->
+script\logic\game_obj\game_obj_base.py:256(UpdateDir)                                                            ->     877    0.013    0.025  script\logic\game_obj\game_obj_base.py:186(UpdateModelDir)
+                                                                                                                       2631    0.001    0.001  {math.fabs}
+script\logic\game_obj\game_obj_base.py:289(UpdateGravity)                                                        ->
+script\logic\game_obj\game_obj_base.py:305(Update)                                                               ->   14028    0.002    0.002  script\logic\component\component_base.py:30(Update)
+                                                                                                                       2434    0.006    0.007  script\logic\component\component_fight_attr.py:156(Update)
+                                                                                                                       2434    0.006    0.186  script\logic\component\component_move_mapper.py:264(Update)
+                                                                                                                       2326    0.003    0.011  script\logic\game_ai\behavior_tree\behavior_tree.py:128(Update)
+                                                                                                                       2434    0.005    0.032  script\logic\game_obj\game_obj_base.py:256(UpdateDir)
+                                                                                                                       2434    0.001    0.001  script\logic\game_obj\game_obj_base.py:289(UpdateGravity)
+                                                                                                                       2434    0.001    0.001  {method 'iteritems' of 'dict' objects}
+script\logic\game_obj\game_obj_base.py:76(GetGlobalID)                                                           ->
+script\logic\game_obj\game_obj_fight.py:120(Update)                                                              ->    2434    0.028    0.267  script\logic\game_obj\game_obj_base.py:305(Update)
+script\logic\game_obj\game_obj_fight.py:142(SetLocalPosition)                                                    ->    3983    0.052    0.058  script\logic\common_pkg\utils.py:122(ObjectMove)
+                                                                                                                       3983    0.021    0.042  script\logic\component\component_move_mapper.py:113(SetLocalPosition)
+                                                                                                                       3983    0.048    0.103  script\logic\game_obj\game_obj_base.py:106(SetLocalPosition)
+                                                                                                                       3983    0.003    0.004  script\logic\game_obj\game_obj_fight.py:58(GetMoveMgr)
+script\logic\game_obj\game_obj_fight.py:58(GetMoveMgr)                                                           ->   14857    0.003    0.003  {hasattr}
+script\logic\game_obj\game_obj_fight.py:62(GetPlayAniMgr)                                                        ->    2295    0.000    0.000  {hasattr}
+script\logic\game_obj\game_obj_fight.py:66(GetDoSkillMgr)                                                        ->    8573    0.001    0.001  {hasattr}
+script\logic\game_obj\game_obj_fight.py:70(GetFightAttrsMgr)                                                     ->   11723    0.002    0.002  {hasattr}
+script\logic\game_obj\game_obj_fight.py:74(GetAIComponent)                                                       ->    2593    0.001    0.001  {hasattr}
+script\logic\game_obj\game_obj_fight.py:78(IsAIEnable)                                                           ->    2593    0.000    0.000  script\logic\component\component_base.py:24(IsEnable)
+                                                                                                                       2593    0.002    0.003  script\logic\game_obj\game_obj_fight.py:74(GetAIComponent)
+script\logic\game_obj\game_obj_fight.py:92(GetTargetGID)                                                         ->
+script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:155(CaluCurMoveDir)                                ->    2290    0.001    0.001  {time.time}
+script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:186(GetCurMoveDir)                                 ->
+script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:191(SetMoveJoystickControllerDir)                  ->
+script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:81(OnUpdateKeyMoveControl)                         ->    2290    0.000    0.000  script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)
+                                                                                                                       1994    0.046    0.312  script\logic\component\component_move_mapper.py:174(MoveOneStep)
+                                                                                                                        293    0.000    0.000  script\logic\component\component_move_mapper.py:359(MoveStop)
+                                                                                                                        296    0.003    0.007  script\logic\component\component_play_ani.py:132(UpdateAnimation)
+                                                                                                                       3988    0.001    0.001  script\logic\game_obj\game_obj_base.py:130(GetLocalPosition)
+                                                                                                                       2287    0.001    0.001  script\logic\game_obj\game_obj_fight.py:58(GetMoveMgr)
+                                                                                                                        296    0.000    0.000  script\logic\game_obj\game_obj_fight.py:62(GetPlayAniMgr)
+                                                                                                                       2287    0.003    0.006  script\logic\game_obj\game_obj_fight.py:78(IsAIEnable)
+                                                                                                                       2290    0.006    0.007  script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:155(CaluCurMoveDir)
+                                                                                                                       2290    0.001    0.001  script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:186(GetCurMoveDir)
+                                                                                                                       1994    0.002    0.002  {math.acos}
+                                                                                                                       1997    0.002    0.002  {method 'mulvec3x3' of 'math3d.matrix' objects}
+                                                                                                                       1994    0.002    0.002  {method 'normalize' of 'math3d.vector' objects}
+                                                                                                                       1997    0.002    0.002  {world.get_active_scene}
+script\logic\game_obj\main_player_pkg\pkg_main_circle.py:11(OnUpdateMainCircel)                                  ->    2290    0.002    0.003  engine\dt_fx\fx_mgr.py:131(update_all_fx)
+                                                                                                                       2290    0.001    0.001  engine\game.py:370(GetIsEnablePostProcess)
+                                                                                                                       2290    0.000    0.000  script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)
+                                                                                                                       2290    0.006    0.006  script\logic\common_pkg\trigger_event.py:25(OnUpdateTriggerEvent)
+                                                                                                                       6870    0.001    0.001  script\logic\game_obj\game_obj_base.py:130(GetLocalPosition)
+                                                                                                                       2290    0.001    0.001  {time.time}
+                                                                                                                       2290    0.001    0.001  {world.set_dtfx_python_time}
+                                                                                                                       2290    0.001    0.001  {world.update_all_dtfx}
+                                                                                                                       2290    0.009    0.009  {world.update_dtprocess_station}
+script\logic\game_obj\main_player_pkg\pkg_maiplayer_camera.py:79(OnUpdateMainPlayerCamera)                       ->    2290    0.002    0.003  script\logic\common_pkg\char_mgr.py:73(GetObjByGlobalID)
+                                                                                                                       2290    0.000    0.000  script\logic\component\component_do_skill.py:44(GetCurSkillID)
+                                                                                                                       1994    0.001    0.001  script\logic\component\component_move_mapper.py:98(GetStandToMoveChangeTime)
+                                                                                                                       2290    0.001    0.001  script\logic\component\component_move_mapper.py:101(GetIsMoving)
+                                                                                                                       2290    0.001    0.002  script\logic\game_obj\game_obj_base.py:136(GetWorldPosition)
+                                                                                                                       4284    0.002    0.002  script\logic\game_obj\game_obj_fight.py:58(GetMoveMgr)
+                                                                                                                       2290    0.001    0.002  script\logic\game_obj\game_obj_fight.py:66(GetDoSkillMgr)
+                                                                                                                       2290    0.003    0.007  script\logic\game_wnd\wnd_obj_name\wnd_obj_name.py:11(OnCameraChange)
+                                                                                                                        296    0.000    0.000  {method 'intrp' of 'math3d.vector' objects}
+                                                                                                                       2290    0.001    0.001  {time.time}
+                                                                                                                       4580    0.002    0.002  {world.get_active_scene}
+script\logic\game_state\battle_state.py:33(OnUpdate)                                                             ->    2290    0.001    0.001  script\logic\common_pkg\char_mgr.py:79(GetMainPlayer)
+                                                                                                                       2290    0.014    0.295  script\logic\common_pkg\char_mgr.py:366(ProcessUpdate)
+                                                                                                                       2290    0.003    0.004  script\logic\common_pkg\player_ani_move.py:149(OnUpdateAniMove)
+                                                                                                                       2290    0.035    0.379  script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:81(OnUpdateKeyMoveControl)
+                                                                                                                       2290    0.056    0.079  script\logic\game_obj\main_player_pkg\pkg_main_circle.py:11(OnUpdateMainCircel)
+                                                                                                                       2290    0.065    0.085  script\logic\game_obj\main_player_pkg\pkg_maiplayer_camera.py:79(OnUpdateMainPlayerCamera)
+                                                                                                                       2290    0.005    0.100  script\logic\game_wnd\wnd_game_main_mgr.py:120(UpdateBattleUI)
+                                                                                                                       2290    0.005    0.015  script\logic\trigger\trigger_mgr.py:101(Update)
+script\logic\game_state\game_state_machine.py:14(GameStateMachine)                                               ->
+script\logic\game_wnd\main_move_joystick\wnd_move_joystick.py:137(SetCurMoveDir)                                 ->    1880    0.001    0.001  script\logic\game_obj\main_player_pkg\pkg_key_move_control.py:191(SetMoveJoystickControllerDir)
+script\logic\game_wnd\main_move_joystick\wnd_move_joystick.py:150(OnCheckMoveDir)                                ->
+script\logic\game_wnd\main_move_joystick\wnd_move_joystick.py:35(OnClickMsg)                                     ->       6    0.000    0.000  script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)
+                                                                                                                          6    0.000    0.000  script\logic\common_pkg\tick_mgr.py:17(RegisterTick)
+                                                                                                                          6    0.000    0.000  script\logic\common_pkg\tick_mgr.py:30(UnRegisterTick)
+                                                                                                                          6    0.000    0.000  script\logic\component\component_move_mapper.py:359(MoveStop)
+                                                                                                                          6    0.000    0.000  script\logic\game_obj\game_obj_fight.py:58(GetMoveMgr)
+                                                                                                                       1880    0.008    0.009  script\logic\game_wnd\main_move_joystick\wnd_move_joystick.py:137(SetCurMoveDir)
+                                                                                                                          8    0.000    0.000  script\logic\game_wnd\ui_mgr.py:84(GetDesignSceneWidth)
+                                                                                                                       3752    0.001    0.001  script\logic\game_wnd\wnd_base.py:88(GetWidge)
+                                                                                                                       3760    0.002    0.016  script\logic\game_wnd\wnd_base.py:94(GetChildWnd)
+                                                                                                                       1993    0.000    0.000  script\logic\game_wnd\wnd_mgr.py:15(GetTouchID)
+                                                                                                                       1868    0.002    0.002  {math.sqrt}
+                                                                                                                         16    0.000    0.000  {method 'getTouchBeganPosition' of 'ccui.Widget' objects}
+                                                                                                                       3736    0.001    0.001  {method 'getTouchMovePosition' of 'ccui.Widget' objects}
+                                                                                                                          8    0.001    0.001  {method 'pick_ray' of 'world.scene' objects}
+                                                                                                                          8    0.000    0.000  {method 'screen_to_world' of 'world.camera' objects}
+                                                                                                                       3748    0.003    0.003  {method 'setPosition' of 'cc.Node' objects}
+                                                                                                                         12    0.000    0.000  {method 'setVisible' of 'cc.Node' objects}
+                                                                                                                         16    0.000    0.000  {world.get_active_scene}
+script\logic\game_wnd\main_skill_button\wnd_main_skill_button.py:101(OnTickUpdateCD)                             ->    1404    0.002    0.002  script\gac_gas\skill\gas_skill_pkg\skill_cd.py:30(GetSkillCDInfo)
+                                                                                                                       5616    0.009    0.015  script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:45(GetSkillCD)
+                                                                                                                       7020    0.006    0.009  script\gac_gas\skill\gas_skill_pkg\skill_cfg.py:57(GetCostNengLiang)
+                                                                                                                       1404    0.004    0.007  script\gac_gas\skill\gas_skill_pkg\skill_nengliang.py:20(RefreshSkillNengLiang)
+                                                                                                                       1404    0.001    0.001  script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)
+                                                                                                                       2808    0.001    0.001  script\logic\game_obj\game_obj_base.py:76(GetGlobalID)
+                                                                                                                       5616    0.034    0.090  script\logic\game_wnd\main_skill_button\wnd_main_skill_button.py:263(CheckCanDoSkill)
+                                                                                                                      11232    0.006    0.048  script\logic\game_wnd\wnd_base.py:94(GetChildWnd)
+                                                                                                                       2808    0.019    0.045  script\logic\game_wnd\wnd_base.py:167(SetWidgetCD)
+                                                                                                                       7020    0.054    0.054  {method 'loadTexture' of 'ccui.ImageView' objects}
+                                                                                                                       1404    0.001    0.001  {method 'setVisible' of 'cc.Node' objects}
+                                                                                                                       1404    0.003    0.003  {range}
+script\logic\game_wnd\main_skill_button\wnd_main_skill_button.py:263(CheckCanDoSkill)                            ->    5616    0.016    0.054  script\gac_gas\skill\gas_skill_pkg\check_can_do_skill.py:8(CheckCanDoSkill)
+                                                                                                                       5616    0.001    0.001  script\logic\common_pkg\char_mgr.py:88(GetMainControllerObj)
+                                                                                                                       5616    0.002    0.002  script\logic\game_obj\game_obj_base.py:76(GetGlobalID)
+script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:114(Update)                                         ->    2254    0.001    0.001  {method 'setRotation' of 'cc.Node' objects}
+                                                                                                                       1972    0.009    0.009  {method 'setTextureRect' of 'cc.Sprite' objects}
+script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:166(ShowMinimap)                                    ->       8    0.000    0.000  {method 'setVisible' of 'cc.Node' objects}
+script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:203(Update)                                         ->    2254    0.036    0.092  script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:209(UpdatePos)
+script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:209(UpdatePos)                                      ->    2254    0.000    0.000  script\logic\common_pkg\char_mgr.py:79(GetMainPlayer)
+                                                                                                                       2254    0.001    0.002  script\logic\game_obj\game_obj_base.py:136(GetWorldPosition)
+                                                                                                                       2254    0.001    0.001  script\logic\game_obj\game_obj_base.py:218(GetDir)
+                                                                                                                       2254    0.011    0.021  script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:114(Update)
+                                                                                                                       2254    0.028    0.028  {method 'Update' of 'dtws_utls.foot_print' objects}
+                                                                                                                       2254    0.003    0.003  {method 'setPosition' of 'cc.Node' objects}
+                                                                                                                       2254    0.001    0.001  {method 'setRotation' of 'cc.Node' objects}
+script\logic\game_wnd\ui_mgr.py:84(GetDesignSceneWidth)                                                          ->
+script\logic\game_wnd\wnd_base.py:167(SetWidgetCD)                                                               ->    2808    0.003    0.003  {math.cos}
+                                                                                                                       2808    0.001    0.001  {math.sin}
+                                                                                                                       2808    0.003    0.003  {max}
+                                                                                                                       2808    0.006    0.006  {method 'getGLProgramState' of 'cc.Node' objects}
+                                                                                                                       2808    0.007    0.007  {method 'getVirtualRenderer' of 'ccui.Widget' objects}
+                                                                                                                       2808    0.005    0.005  {method 'setUniformFloat' of 'cc.GLProgramState' objects}
+                                                                                                                       2808    0.001    0.001  {min}
+script\logic\game_wnd\wnd_base.py:41(handler)                                                                    ->    1995    0.035    0.069  script\logic\game_wnd\main_move_joystick\wnd_move_joystick.py:35(OnClickMsg)
+script\logic\game_wnd\wnd_base.py:8(GetChildWnd)                                                                 ->   17800    0.053    0.053  {built-in method seekWidgetByName}
+script\logic\game_wnd\wnd_base.py:88(GetWidge)                                                                   ->
+script\logic\game_wnd\wnd_base.py:94(GetChildWnd)                                                                ->   17800    0.013    0.066  script\logic\game_wnd\wnd_base.py:8(GetChildWnd)
+script\logic\game_wnd\wnd_game_main_mgr.py:120(UpdateBattleUI)                                                   ->    2290    0.003    0.095  script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:203(Update)
+script\logic\game_wnd\wnd_game_main_mgr.py:124(ShowMinimap)                                                      ->       8    0.000    0.000  script\logic\game_wnd\main_skill_button\wnd_minimap_panel.py:166(ShowMinimap)
+script\logic\game_wnd\wnd_mainplayer\wnd_mainplayer_headinfo\wnd_mainplayer_headinfo.py:17(OnTickUpdateHeadInf)  ->    1404    0.001    0.001  script\gac_gas\skill\gas_skill_pkg\skill_nuqi.py:19(GetSkillNuQi)
+                                                                                                                       1404    0.001    0.001  script\logic\common_pkg\char_mgr.py:79(GetMainPlayer)
+                                                                                                                       1404    0.001    0.001  script\logic\component\component_fight_attr.py:147(GetCurHp)
+                                                                                                                       1404    0.001    0.001  script\logic\component\component_fight_attr.py:153(GetMaxHp)
+                                                                                                                       1404    0.000    0.000  script\logic\game_obj\game_obj_base.py:76(GetGlobalID)
+                                                                                                                       2808    0.002    0.003  script\logic\game_obj\game_obj_fight.py:70(GetFightAttrsMgr)
+                                                                                                                       2808    0.002    0.013  script\logic\game_wnd\wnd_base.py:94(GetChildWnd)
+                                                                                                                       2808    0.002    0.002  {method 'setPercent' of 'ccui.LoadingBar' objects}
+script\logic\game_wnd\wnd_mgr.py:15(GetTouchID)                                                                  ->
+script\logic\game_wnd\wnd_mgr.py:9(CheckTouchID)                                                                 ->    1995    0.001    0.001  {method 'getId' of 'cc.Touch' objects}
+script\logic\game_wnd\wnd_obj_name\wnd_obj_name.py:11(OnCameraChange)                                            ->     108    0.001    0.003  script\logic\game_wnd\wnd_obj_name\wnd_obj_name.py:58(UpdateHeadNamePos)
+                                                                                                                       2290    0.001    0.001  {method 'iteritems' of 'dict' objects}
+script\logic\game_wnd\wnd_obj_name\wnd_obj_name.py:58(UpdateHeadNamePos)                                         ->     108    0.000    0.000  script\logic\common_pkg\char_mgr.py:73(GetObjByGlobalID)
+                                                                                                                        108    0.000    0.000  script\logic\game_obj\game_obj_base.py:130(GetLocalPosition)
+                                                                                                                        108    0.000    0.000  script\logic\game_wnd\wnd_base.py:88(GetWidge)
+                                                                                                                        108    0.000    0.000  {built-in method getInstance}
+                                                                                                                        108    0.000    0.000  {method 'convertToUI' of 'cc.Director' objects}
+                                                                                                                        108    0.000    0.000  {method 'setPosition' of 'cc.Node' objects}
+                                                                                                                        108    0.000    0.000  {method 'world_to_screen' of 'world.camera' objects}
+                                                                                                                        216    0.000    0.000  {round}
+                                                                                                                        108    0.000    0.000  {world.get_active_scene}
+script\logic\scene_mgr\scene_mgr.py:416(OnLoadingScene)                                                          ->
+script\logic\trigger\trigger_mgr.py:101(Update)                                                                  ->    2290    0.000    0.000  script\logic\common_pkg\char_mgr.py:79(GetMainPlayer)
+                                                                                                                       2290    0.002    0.002  script\logic\trigger\trigger_mgr.py:74(CanUpdate)
+                                                                                                                       2290    0.007    0.007  script\logic\trigger\trigger_mgr.py:90(UpdateSceneTrigger)
+script\logic\trigger\trigger_mgr.py:74(CanUpdate)                                                                ->
+script\logic\trigger\trigger_mgr.py:90(UpdateSceneTrigger)                                                       ->      76    0.000    0.000  script\logic\common_pkg\char_mgr.py:79(GetMainPlayer)
+                                                                                                                         76    0.000    0.000  script\logic\game_obj\game_obj_base.py:136(GetWorldPosition)
+                                                                                                                         76    0.000    0.000  {method 'set_trigger_position' of 'world.scene' objects}
+                                                                                                                         76    0.000    0.000  {world.get_active_scene}
+{C_debug.message}                                                                                                ->
+{_codecs.utf_8_decode}                                                                                           ->
+{_opensteer._TrivialVehicleLS_setForward}                                                                        ->
+{_opensteer._TrivialVehicleLS_setPosition}                                                                       ->
+{_opensteer.new_Vec3}                                                                                            ->
+{built-in method getInstance}                                                                                    ->
+{built-in method make_rotation_y}                                                                                ->
+{built-in method seekWidgetByName}                                                                               ->
+{game3d.activate_timer}                                                                                          ->
+{game3d.delay_exec}                                                                                              ->
+{game3d.register_timer}                                                                                          ->
+{game3d.unregister_timer}                                                                                        ->
+{hasattr}                                                                                                        ->      10    0.000    0.000  script\logic\game_ai\behavior_tree\base_node.py:180(__getattr__)
+{isinstance}                                                                                                     ->
+{len}                                                                                                            ->
+{mapper.GetCurrentPositionInfo}                                                                                  ->
+{mapper.GetHeight}                                                                                               ->
+{mapper.MoveOneStep}                                                                                             ->
+{mapper.StopMove}                                                                                                ->
+{mapper.Update}                                                                                                  ->
+{math.acos}                                                                                                      ->
+{math.cos}                                                                                                       ->
+{math.degrees}                                                                                                   ->
+{math.fabs}                                                                                                      ->
+{math.floor}                                                                                                     ->
+{math.radians}                                                                                                   ->
+{math.sin}                                                                                                       ->
+{math.sqrt}                                                                                                      ->
+{max}                                                                                                            ->
+{method 'Update' of 'dtws_utls.foot_print' objects}                                                              ->
+{method 'append' of 'collections.deque' objects}                                                                 ->
+{method 'appendleft' of 'collections.deque' objects}                                                             ->
+{method 'clear' of 'dict' objects}                                                                               ->
+{method 'convertToUI' of 'cc.Director' objects}                                                                  ->
+{method 'decode' of 'str' objects}                                                                               ->      25    0.000    0.000  lib\encodings\utf_8.py:16(decode)
+{method 'disable' of '_lsprof.Profiler' objects}                                                                 ->
+{method 'dot' of 'math3d.vector' objects}                                                                        ->
+{method 'encode' of 'unicode' objects}                                                                           ->
+{method 'format' of 'str' objects}                                                                               ->
+{method 'get' of 'dict' objects}                                                                                 ->
+{method 'getGLProgramState' of 'cc.Node' objects}                                                                ->
+{method 'getId' of 'cc.Touch' objects}                                                                           ->
+{method 'getTouchBeganPosition' of 'ccui.Widget' objects}                                                        ->
+{method 'getTouchMovePosition' of 'ccui.Widget' objects}                                                         ->
+{method 'getVirtualRenderer' of 'ccui.Widget' objects}                                                           ->
+{method 'has_key' of 'dict' objects}                                                                             ->
+{method 'intrp' of 'math3d.vector' objects}                                                                      ->
+{method 'items' of 'dict' objects}                                                                               ->
+{method 'iteritems' of 'dict' objects}                                                                           ->
+{method 'keys' of 'dict' objects}                                                                                ->
+{method 'loadTexture' of 'ccui.ImageView' objects}                                                               ->
+{method 'mulvec3x3' of 'math3d.matrix' objects}                                                                  ->
+{method 'normalize' of 'math3d.vector' objects}                                                                  ->
+{method 'pick_ray' of 'world.scene' objects}                                                                     ->
+{method 'play_animation' of 'world.model' objects}                                                               ->
+{method 'popleft' of 'collections.deque' objects}                                                                ->
+{method 'remove' of 'collections.deque' objects}                                                                 ->
+{method 'screen_to_world' of 'world.camera' objects}                                                             ->
+{method 'setPercent' of 'ccui.LoadingBar' objects}                                                               ->
+{method 'setPosition' of 'cc.Node' objects}                                                                      ->
+{method 'setRotation' of 'cc.Node' objects}                                                                      ->
+{method 'setTextureRect' of 'cc.Sprite' objects}                                                                 ->
+{method 'setUniformFloat' of 'cc.GLProgramState' objects}                                                        ->
+{method 'setVisible' of 'cc.Node' objects}                                                                       ->
+{method 'set_trigger_position' of 'world.scene' objects}                                                         ->
+{method 'splitlines' of 'str' objects}                                                                           ->
+{method 'world_to_screen' of 'world.camera' objects}                                                             ->
+{min}                                                                                                            ->
+{range}                                                                                                          ->
+{round}                                                                                                          ->
+{time.time}                                                                                                      ->
+{world.get_active_scene}                                                                                         ->
+{world.set_dtfx_python_time}                                                                                     ->
+{world.update_all_dtfx}                                                                                          ->
+{world.update_dtprocess_station}                                                                                 ->
+
+
